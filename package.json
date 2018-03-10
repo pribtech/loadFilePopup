@@ -1,0 +1,22 @@
+{ "name": "loadFilePopup"
+, "description": "html popup to load data into javascript"
+,"version": "0.0.1"
+,"main": "index.js"
+,"repository" :
+	{"type" : "git"
+	,"url" : "https://github.com/pribtech/loadFilePopup.git"
+	 }
+ ,"keywords":  ["javascript","popup","load","file","html"]
+,"author": "Peter Prib"
+,"bugs": "https://github.com/pribtech/loadFilePopup/issues"
+,"license": "Apache-2.0"
+,"bin": 
+	{
+	"test": "./test/main.js"
+	}
+ ,"devDependencies": 
+    {"express": "*"
+    ,"browserSetup": "https://github.com/pribtech/browserSetup"
+	}
+,"scripts": { "test": "node test/main.js"}
+}
