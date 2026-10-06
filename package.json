@@ -15,8 +15,11 @@
 	"test": "./test/main.js"
 	}
  ,"devDependencies": 
-    {"express": "*"
-    ,"browserSetup": "https://github.com/pribtech/browserSetup"
+     {"express": "*"
+     ,"browserSetup": "https://github.com/pribtech/browserSetup"
 	}
 ,"scripts": { "test": "node test/main.js"}
+,"engines": {
+  "node": ">=22.0.0"
+}
 }
